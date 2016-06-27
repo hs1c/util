@@ -3,8 +3,6 @@
 #include "intrhash.h"
 #include "nodeallc.h"
 
-#include <stdexcept>
-
 namespace intrhash_map_priv {
     template <class K, class T, class O, class A>
     struct impl {

@@ -515,7 +515,7 @@ private:
         }
 
     private:
-        item_type* item_;
+        item_type* item_ = nullptr;
     };
 
 public:
